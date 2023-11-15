@@ -10,50 +10,67 @@
             text-align: center;
             margin-top: 50px;
         }
-
-        #binaryCode {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-
-        #decodedText {
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        #shiftButton {
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
+        textarea {
+            width: 80%;
+            height: 100px;
         }
     </style>
 </head>
 <body>
-    <h1>Binary Shift Code Game</h1>
+    <h2>Binary Shift Code Game</h2>
 
-    <div id="binaryCode">01001000 01100101 01101100 01101100 01101111</div>
-    <button id="shiftButton" onclick="shiftBinary()">Shift</button>
-    <div id="decodedText"></div>
+    <label for="text">Enter the text to encode:</label><br>
+    <textarea id="text" placeholder="Enter text"></textarea><br>
+    <button onclick="encodeText()">Encode Text</button><br>
+    <label for="encodedBinary">Encoded Binary:</label><br>
+    <textarea id="encodedBinary" readonly></textarea><br><br>
+
+    <label for="shiftAmount">Enter the shift amount:</label><br>
+    <input type="number" id="shiftAmount" placeholder="Enter shift amount" min="1" value="1"><br>
+    <button onclick="shiftBinary()">Shift Binary</button><br>
+    <label for="shiftedBinary">Shifted Binary:</label><br>
+    <textarea id="shiftedBinary" readonly></textarea><br><br>
+
+    <button onclick="decodeText()">Decode Text</button><br>
+    <label for="decodedText">Decoded Text:</label><br>
+    <textarea id="decodedText" readonly></textarea>
 
     <script>
-        let currentShift = 0;
+        function textToBinary(text) {
+            return text.split('').map(char => ' ' + char.charCodeAt(0).toString(2).padStart(8, '0')).join('');
+        }
 
         function binaryToText(binary) {
-            return binary.split(' ').map(bin => String.fromCharCode(parseInt(bin, 2))).join('');
+            return binary.split(' ').map(binVal => String.fromCharCode(parseInt(binVal, 2))).join('');
+        }
+
+        function encodeText() {
+            const textInput = document.getElementById('text').value;
+            const encodedBinary = textToBinary(textInput);
+            document.getElementById('encodedBinary').value = encodedBinary.trim();
         }
 
         function shiftBinary() {
-            const binaryCodeElement = document.getElementById('binaryCode');
-            const decodedTextElement = document.getElementById('decodedText');
+            const encodedBinary = document.getElementById('encodedBinary').value.replace(/\s+/g, ' ');
+            const shiftAmount = parseInt(document.getElementById('shiftAmount').value, 10);
+            const shiftedBinary = encodedBinary.split(' ').map(binVal => shiftBinaryValue(binVal, shiftAmount)).join('');
+            document.getElementById('shiftedBinary').value = shiftedBinary.trim();
+        }
 
-            const binaryCode = binaryCodeElement.innerText.trim().replace(/\s+/g, ' ');
-            const decodedText = binaryToText(binaryCode);
+        function shiftBinaryValue(binaryValue, shiftAmount) {
+            const binaryArray = binaryValue.split('');
+            for (let i = 0; i < binaryArray.length; i++) {
+                if (binaryArray[i] !== ' ') {
+                    binaryArray[i] = binaryArray[i] === '0' ? '1' : '0';
+                }
+            }
+            return binaryArray.join('');
+        }
 
-            currentShift++;
-            const shiftedBinary = [...decodedText].map(char => (char.charCodeAt(0) + currentShift).toString(2)).join(' ');
-
-            binaryCodeElement.innerText = shiftedBinary;
-            decodedTextElement.innerText = 'Decoded Text: ' + decodedText;
+        function decodeText() {
+            const shiftedBinary = document.getElementById('shiftedBinary').value.replace(/\s+/g, ' ');
+            const decodedText = binaryToText(shiftedBinary);
+            document.getElementById('decodedText').value = decodedText;
         }
     </script>
 </body>
