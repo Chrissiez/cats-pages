@@ -67,11 +67,16 @@
             return binaryArray.join('');
         }
 
-        function decodeText() {
-            const shiftedBinary = document.getElementById('shiftedBinary').value.replace(/\s+/g, ' ');
-            const decodedText = binaryToText(shiftedBinary);
-            document.getElementById('decodedText').value = decodedText;
-        }
+function decodeText() {
+    const shiftedBinary = document.getElementById('shiftedBinary').value.replace(/\s+/g, ' ');
+    const decodedText = binaryToText(shiftedBinary);
+
+    if (decodedText.trim() === '') {
+        document.getElementById('decodedText').value = 'Invalid binary input. Please check the binary code and try again.';
+    } else {
+        document.getElementById('decodedText').value = 'Decoded Text: ' + decodedText;
+    }
+}
     </script>
 </body>
 </html>
