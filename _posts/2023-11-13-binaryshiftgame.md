@@ -68,7 +68,7 @@
         }
 
         function decodeText() {
-            const shiftedBinary = document.getElementById('shiftedBinary').value.replace(/\s+/g, ' ');
+            const shiftedBinary = document.getElementById('shiftedBinary').value.replace(' ');
             const decodedText = binaryToText(shiftedBinary);
             document.getElementById('decodedText').value = decodedText;
         }
