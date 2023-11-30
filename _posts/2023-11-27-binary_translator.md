@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: true
+comments: false
 layout: post
 title: binary translator
 description: transforms words to binary
