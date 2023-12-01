@@ -21,7 +21,6 @@ courses: { compsci: {week: 7} }
             place-items: center;
             min-height: 100vh;
         }
-
         /* Style for the question containers */
         .question-container {
             background-color: #fff;
@@ -32,41 +31,38 @@ courses: { compsci: {week: 7} }
             padding: 20px;
             text-align: left;
         }
-
         /* Style for question titles */
         .question h2 {
             font-size: 18px;
             color: #000; /* Set font color to black */
         }
-
+        .question p {
+            font-size: 25px;
+            color: #000
+        }
         /* Style for answer choices */
         .question ul {
             list-style-type: none;
             padding: 0;
         }
-
         .question li {
             padding: 8px 0;
             color: #000; /* Set font color to black */
         }
-
         /* Style for the correct answer reveal */
         .question details {
             margin-top: 15px;
             cursor: pointer;
         }
-
         .question summary {
             font-weight: bold;
             color: #000; /* Set font color to black */
         }
-
         /* Style for the correct answer */
         .question details p {
             margin: 0;
             color: #009900; /* Green color for correct answer */
         }
-
         /* Arrange questions in two rows using grid layout */
         .questions-grid {
             display: grid;
