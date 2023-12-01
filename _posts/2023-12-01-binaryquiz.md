@@ -45,6 +45,7 @@ courses: { compsci: {week: 7} }
 
         .question li {
             padding: 8px 0;
+            color: #000; /* Set font color to black */
         }
 
         /* Style for the correct answer reveal */
@@ -79,10 +80,10 @@ courses: { compsci: {week: 7} }
                 <h2>Binary Question 1</h2>
                 <p>How many bits are in binary colors?</p>
                 <ul>
-            <li>A) 24</li>
-            <li>B) 16</li>
-            <li>C) 8</li>
-            <li>D) 5</li>
+                    <li>A) 24</li>
+                    <li>B) 16</li>
+                    <li>C) 8</li>
+                    <li>D) 5</li>
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
@@ -96,14 +97,14 @@ courses: { compsci: {week: 7} }
                 <h2>Binary Question 2</h2>
                 <p>Convert 30 into a binary number?</p>
                 <ul>
-            <li>A) 00011001</li>
-            <li>B) 00011011</li>
-            <li>C) 00011110</li>
-            <li>D) 00111111</li>
+                    <li>A) 00011001</li>
+                    <li>B) 00011011</li>
+                    <li>C) 00011110</li>
+                    <li>D) 00111111</li>
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
-                    <p>The correct answer is B) 00011110, solve the problem out. We recommend using a paper and pencil. </p>
+                    <p>The correct answer is B) 00011110, solve the problem out. We recommend using a paper and pencil.</p>
                 </details>
             </div>
         </div>
@@ -113,9 +114,9 @@ courses: { compsci: {week: 7} }
                 <h2> Computer Science Principals Question 3</h2>
                 <p>What is a bit?</p>
                 <ul>
-            <li>A) a bit piece of something</li>
-            <li>B) Basic Unit of information and computing and digital communications</li>
-            <li>C) Computer science</li>
+                    <li>A) a bit piece of something</li>
+                    <li>B) Basic Unit of information and computing and digital communications</li>
+                    <li>C) Computer science</li>
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
@@ -126,3 +127,4 @@ courses: { compsci: {week: 7} }
     </div>
 </body>
 </html>
+
