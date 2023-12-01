@@ -7,8 +7,7 @@ description: transforms words to binary
 type: hacks
 courses: { compsci: {week: 7} }
 ---
-@import "minima/Dark_Mode" 
-<DOCTYPE HTML>
+
 <html lang="en">
 <head>
    <meta charset="UTF-8">
