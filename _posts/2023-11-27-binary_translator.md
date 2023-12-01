@@ -7,7 +7,6 @@ description: transforms words to binary
 type: hacks
 courses: { compsci: {week: 7} }
 ---
-<DOCYPE HTML>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
