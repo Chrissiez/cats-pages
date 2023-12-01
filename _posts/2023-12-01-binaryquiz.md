@@ -34,7 +34,7 @@ courses: { compsci: {week: 7} }
         /* Style for question titles */
         .question h2 {
             font-size: 18px;
-            color: #333;
+            color: #000; /* Set font color to black */
         }
 
         /* Style for answer choices */
@@ -56,7 +56,7 @@ courses: { compsci: {week: 7} }
 
         .question summary {
             font-weight: bold;
-            color: #333;
+            color: #000; /* Set font color to black */
         }
 
         /* Style for the correct answer */
