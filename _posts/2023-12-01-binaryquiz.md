@@ -22,7 +22,7 @@ courses: { compsci: {week: 7} }
 
         /* Style for the question containers */
         .question-container {
-            background-color: #fff;
+            background-color: #000;
             border-radius: 10px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
             max-width: 400px;
