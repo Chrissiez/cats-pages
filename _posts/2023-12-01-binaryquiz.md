@@ -2,8 +2,8 @@
 toc: true
 comments: false
 layout: post
-title: binary quiz
-description: A little quiz to test your binary knowledge. 
+title: binary 
+description: Our quiz along with binary translator
 type: hacks
 courses: { compsci: {week: 7} }
 ---
