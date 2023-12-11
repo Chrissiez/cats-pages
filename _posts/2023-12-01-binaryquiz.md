@@ -1,14 +1,12 @@
----
+make---
 toc: true
 comments: false
 layout: post
-title: binary 
-description: Our quiz along with binary translator
+title: binary quiz
+description: A little quiz to test your binary knowledge. 
 type: hacks
 courses: { compsci: {week: 7} }
 ---
-
-
 <html>
 <head>
     <style>
@@ -21,6 +19,7 @@ courses: { compsci: {week: 7} }
             place-items: center;
             min-height: 100vh;
         }
+
         /* Style for the question containers */
         .question-container {
             background-color: #fff;
@@ -31,38 +30,40 @@ courses: { compsci: {week: 7} }
             padding: 20px;
             text-align: left;
         }
+
         /* Style for question titles */
         .question h2 {
             font-size: 18px;
-            color: #000; /* Set font color to black */
+            color: #333;
         }
-        .question p {
-            font-size: 25px;
-            color: #000
-        }
+
         /* Style for answer choices */
         .question ul {
             list-style-type: none;
             padding: 0;
         }
+
         .question li {
             padding: 8px 0;
-            color: #000; /* Set font color to black */
         }
+
         /* Style for the correct answer reveal */
         .question details {
             margin-top: 15px;
             cursor: pointer;
         }
+
         .question summary {
             font-weight: bold;
-            color: #000; /* Set font color to black */
+            color: #333;
         }
+
         /* Style for the correct answer */
         .question details p {
             margin: 0;
             color: #009900; /* Green color for correct answer */
         }
+
         /* Arrange questions in two rows using grid layout */
         .questions-grid {
             display: grid;
@@ -78,10 +79,10 @@ courses: { compsci: {week: 7} }
                 <h2>Binary Question 1</h2>
                 <p>How many bits are in binary colors?</p>
                 <ul>
-                    <li>A) 24</li>
-                    <li>B) 16</li>
-                    <li>C) 8</li>
-                    <li>D) 5</li>
+            <li>A) 24</li>
+            <li>B) 16</li>
+            <li>C) 8</li>
+            <li>D) 5</li>
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
@@ -95,14 +96,14 @@ courses: { compsci: {week: 7} }
                 <h2>Binary Question 2</h2>
                 <p>Convert 30 into a binary number?</p>
                 <ul>
-                    <li>A) 00011001</li>
-                    <li>B) 00011011</li>
-                    <li>C) 00011110</li>
-                    <li>D) 00111111</li>
+            <li>A) 00011001</li>
+            <li>B) 00011011</li>
+            <li>C) 00011110</li>
+            <li>D) 00111111</li>
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
-                    <p>The correct answer is B) 00011110, solve the problem out. We recommend using a paper and pencil.</p>
+                    <p>The correct answer is B) 00011110, solve the problem out. We recommend using a paper and pencil. </p>
                 </details>
             </div>
         </div>
@@ -112,9 +113,9 @@ courses: { compsci: {week: 7} }
                 <h2> Computer Science Principals Question 3</h2>
                 <p>What is a bit?</p>
                 <ul>
-                    <li>A) a bit piece of something</li>
-                    <li>B) Basic Unit of information and computing and digital communications</li>
-                    <li>C) Computer science</li>
+            <li>A) a bit piece of something</li>
+            <li>B) Basic Unit of information and computing and digital communications</li>
+            <li>C) Computer science</li>
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
@@ -125,10 +126,3 @@ courses: { compsci: {week: 7} }
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
