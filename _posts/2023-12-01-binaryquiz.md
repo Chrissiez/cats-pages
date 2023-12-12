@@ -1,6 +1,6 @@
 make--
 toc: true
-comments: false
+comments: true
 layout: post
 title: binary quiz
 description: A little quiz to test your binary knowledge. 
