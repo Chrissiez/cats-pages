@@ -15,7 +15,7 @@ courses: { compsci: {week: 7} }
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2e6ff; /* Light Purple background color */
+            background-color: #f2e6ff;
             display: grid;
             place-items: center;
             min-height: 100vh;
@@ -23,7 +23,7 @@ courses: { compsci: {week: 7} }
 
         /* Style for the question containers */
         .question-container {
-            background-color: #9cf; /* Dark Gray background color for question containers */
+            background-color: #9cf; /* Light Blue background color for question containers */
             border-radius: 10px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
             max-width: 400px;
@@ -112,7 +112,7 @@ courses: { compsci: {week: 7} }
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
-                    <p>The correct answer is B) 00011110, solve the problem out. We recommend using a paper and pencil.</p>
+                    <p>The correct answer is C) 00011110, solve the problem out. We recommend using a paper and pencil.</p>
                 </details>
             </div>
         </div>
