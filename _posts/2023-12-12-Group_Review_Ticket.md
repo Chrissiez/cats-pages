@@ -22,3 +22,6 @@ courses: { compsci: {week: 15} }
 - Towards the beginning of the project, I worked on the first version of the binary translator. Then we were introduced to sass and I switched to work on that. 
 
 ## Tanvi's Review
+- I worked on the binary flashcards for the prokject. We used similar ones for our passion project, so the code was very similar as well. 
+- One of the main struggles that I dealed with was changing the color for the background, text, and option choices. 
+- I included 
