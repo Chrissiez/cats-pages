@@ -19,5 +19,6 @@ courses: { compsci: {week: 15} }
 
 
 ## Abby's Review
+- Towards the beginning of the project, I worked on the first version of the binary translator. Then we were introduced to sass and I switched to work on that. 
 
 ## Tanvi's Review
