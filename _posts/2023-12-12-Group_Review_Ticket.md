@@ -9,7 +9,7 @@ courses: { compsci: {week: 15} }
 ---
 
 ## Chrissie's Review
-
+- I made the color shifter using binary shift
 
 ## Sreeja's Review
 - In the project the main thing I worked on was the Binary translator: In this I created the Binarytotext function and the TexttoBinary functions, I also added the shift button which when clicked switches all the zeros to ones and the ones to zeros
