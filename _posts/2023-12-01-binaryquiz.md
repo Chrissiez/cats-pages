@@ -1,4 +1,4 @@
-make---
+make--
 toc: true
 comments: false
 layout: post
@@ -22,7 +22,7 @@ courses: { compsci: {week: 7} }
 
         /* Style for the question containers */
         .question-container {
-            background-color: #fff;
+            background-color: #666;
             border-radius: 10px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
             max-width: 400px;
@@ -34,7 +34,7 @@ courses: { compsci: {week: 7} }
         /* Style for question titles */
         .question h2 {
             font-size: 18px;
-            color: #333;
+            color: #fff;
         }
 
         /* Style for answer choices */
@@ -55,7 +55,7 @@ courses: { compsci: {week: 7} }
 
         .question summary {
             font-weight: bold;
-            color: #333;
+            color: #666;
         }
 
         /* Style for the correct answer */
@@ -110,7 +110,7 @@ courses: { compsci: {week: 7} }
 
         <div class="question-container">
             <div class="question">
-                <h2> Computer Science Principals Question 3</h2>
+                <h2> Binary Question</h2>
                 <p>What is a bit?</p>
                 <ul>
             <li>A) a bit piece of something</li>
