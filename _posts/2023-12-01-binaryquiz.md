@@ -112,7 +112,7 @@ courses: { compsci: {week: 7} }
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
-                    <p>The correct answer is B) 00011110, solve the problem out. We recommend using a paper and pencil.</p>
+                    <p>The correct answer is C) 00011110, solve the problem out. We recommend using a paper and pencil.</p>
                 </details>
             </div>
         </div>
