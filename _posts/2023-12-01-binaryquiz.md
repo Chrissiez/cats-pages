@@ -10,6 +10,7 @@ courses: { compsci: {week: 7} }
 <html>
 <head>
     <style>
+        /* Global styles for the entire page */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -22,7 +23,7 @@ courses: { compsci: {week: 7} }
 
         /* Style for the question containers */
         .question-container {
-            background-color: #666;
+            background-color: #666; /* Dark Gray background color for question containers */
             border-radius: 10px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
             max-width: 400px;
@@ -34,7 +35,12 @@ courses: { compsci: {week: 7} }
         /* Style for question titles */
         .question h2 {
             font-size: 18px;
-            color: #fff;
+            color: #000; /* Black color for question titles */
+        }
+
+        /* Style for the question text */
+        .question p {
+            color: #000; /* Black color for question text */
         }
 
         /* Style for answer choices */
@@ -45,6 +51,7 @@ courses: { compsci: {week: 7} }
 
         .question li {
             padding: 8px 0;
+            color: #000; /* Black color for answer choices */
         }
 
         /* Style for the correct answer reveal */
@@ -55,7 +62,7 @@ courses: { compsci: {week: 7} }
 
         .question summary {
             font-weight: bold;
-            color: #666;
+            color: #666; /* Dark Gray color for summary text */
         }
 
         /* Style for the correct answer */
@@ -74,15 +81,16 @@ courses: { compsci: {week: 7} }
 </head>
 <body>
     <div class="questions-grid">
+        <!-- First Question Container -->
         <div class="question-container">
             <div class="question">
                 <h2>Binary Question 1</h2>
                 <p>How many bits are in binary colors?</p>
                 <ul>
-            <li>A) 24</li>
-            <li>B) 16</li>
-            <li>C) 8</li>
-            <li>D) 5</li>
+                    <li>A) 24</li>
+                    <li>B) 16</li>
+                    <li>C) 8</li>
+                    <li>D) 5</li>
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
@@ -91,31 +99,33 @@ courses: { compsci: {week: 7} }
             </div>
         </div>
 
+        <!-- Second Question Container -->
         <div class="question-container">
             <div class="question">
                 <h2>Binary Question 2</h2>
                 <p>Convert 30 into a binary number?</p>
                 <ul>
-            <li>A) 00011001</li>
-            <li>B) 00011011</li>
-            <li>C) 00011110</li>
-            <li>D) 00111111</li>
+                    <li>A) 00011001</li>
+                    <li>B) 00011011</li>
+                    <li>C) 00011110</li>
+                    <li>D) 00111111</li>
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
-                    <p>The correct answer is B) 00011110, solve the problem out. We recommend using a paper and pencil. </p>
+                    <p>The correct answer is B) 00011110, solve the problem out. We recommend using a paper and pencil.</p>
                 </details>
             </div>
         </div>
 
+        <!-- Third Question Container -->
         <div class="question-container">
             <div class="question">
                 <h2> Binary Question</h2>
                 <p>What is a bit?</p>
                 <ul>
-            <li>A) a bit piece of something</li>
-            <li>B) Basic Unit of information and computing and digital communications</li>
-            <li>C) Computer science</li>
+                    <li>A) a bit piece of something</li>
+                    <li>B) Basic Unit of information and computing and digital communications</li>
+                    <li>C) Computer science</li>
                 </ul>
                 <details>
                     <summary>Click to reveal the correct answer</summary>
@@ -126,3 +136,4 @@ courses: { compsci: {week: 7} }
     </div>
 </body>
 </html>
+
