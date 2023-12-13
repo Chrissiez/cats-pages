@@ -9,7 +9,7 @@ courses: { compsci: {week: 15} }
 ---
 
 ## Chrissie's Review
-- I made the color shifter using binary shift. I orriginally worked on the binary translator with Abby, but then I started to work on the color shifter. This part of the project takes the binary and converts it to colors. You click the button and it shifts the binary to the left so that the 1 is shifted 1 to the left. This changes the color that is presented because the color is determined by the arrangement of the 1's and 0's in the binary. 
+- I made the color shifter using binary shift. I orriginally worked on the binary translator with Abby, but then I started to work on the color shifter. This part of the project takes the binary and converts it to colors. You click the button and it shifts the binary to the left so that a 0 is added to the right and the 1's are shifted 1 to the left. This changes the color that is presented because the color is determined by the arrangement of the 1's and 0's in the binary. 
 
 ## Sreeja's Review
 - In the project the main thing I worked on was the Binary translator: In this I created the Binarytotext function and the TexttoBinary functions, I also added the shift button which when clicked switches all the zeros to ones and the ones to zeros
