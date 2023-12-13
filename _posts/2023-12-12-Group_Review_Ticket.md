@@ -20,7 +20,7 @@ courses: { compsci: {week: 15} }
 
 
 ## Abby's Review
-- Towards the beginning of the project, I worked on the first version of the binary translator. Then we were introduced to sass and I switched to work on that. 
+- Towards the beginning of the project, I worked on the binary translator. Chrissie and I had the idea together and worked on it in the beginning. Together we completed the final version of the binary translator. Then we were introduced to SASS and I switched to work on that. I added a black backgroud and centered, white font on our project. This was pulled from the minima page that was introduced to us, then I modified it to fit our needs. The buttons on the translator and the color wheel come from the SASS format that we used, so is the format of the entire binary translator and color shift. 
 
 ## Tanvi's Review
 - I worked on the binary flashcards for the prokject. We used similar ones for our passion project, so the code was very similar as well. 
