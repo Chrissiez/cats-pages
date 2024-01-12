@@ -2,13 +2,13 @@
 toc: true
 comments: false
 layout: post
-title: CHemistry Merge
+title: Chemistry Merge
 description: our plan for our CPT project
 type: plans
 courses: { compsci: {week: 18} }
 ---
 
-#### Learn about chemical Elements and their periodic weigth through a fun simple game
+## Learn about chemical Elements and their periodic weigth through a fun simple game
 
 ## Different portions of the project
 
